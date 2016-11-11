@@ -75,7 +75,7 @@ int main()
 	// In games, we are almost always limited to 2 or 3 dimensional space.
 	// As such, you would expect the vectors we use to almost always be 2 or 3 dimensional vectors.
 	// In 2D, this is the case.
-	// However, most of the math done by 3D games is actually in what's called 4D homogeneous space.
+	// However, most of the math done by 3D games is actually performed with what's called 4D homogeneous coordinates.
 	//  It has a fourth component most often used to determine if the vector is a 3D "directional" vector or a 3D "point" vector.
 	//  The fourth component can be thought of as the "weight" of the vector, so is often called w.
 	//  Unless you really know what you're doing, the w component should always be either 0 (direction) or 1 (point).
