@@ -82,7 +82,7 @@ int main()
 	//  As a code consideration, some engines, such as the Tombstone Engine by Eric Lengyel, actually make this distinction
 	//   by defining two separate structs for 3D points versus 3D vectors, and define separate operations for each struct.
 	//   For example, it does not allow you to add points together, but you can subtract them to get the vector between them.
-	//  More on homogeneous spaces in a future tutorial.
+	//  More on homogeneous coordinates and projective space in a future tutorial.
 	Vector2D twoD = Vector2D(1, 2);
 	Vector3D threeD = Vector3D(1, 2, 3);
 	Vector4D fourD = Vector4D(1, 2, 3, 1);
